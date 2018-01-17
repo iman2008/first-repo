@@ -1,0 +1,11 @@
+from turtle import *
+
+Screen()
+a=Turtle()
+bgcolor("white")
+for iman_color in ("yellow","black","purple","green"):
+	a.pensize(5)
+	a.color(iman_color)
+	a.fd(80)
+	a.lt(90)
+exitonclick()

@@ -1,0 +1,19 @@
+#this codes provide area from sqrt{(x2-x1)+(y2-y1)}
+from math import sqrt, pi
+def surface(r):
+    temp=pi*(r**2)
+    return temp
+
+def distance (t1,t2,t3,t4):
+    temp1= t2-t1
+    temp2=t4-t3
+    temp3=(temp1**2)+(temp2**2)
+    return sqrt(temp3)
+
+
+x1= input("please enter x1: ")
+x2= input("please enter x2: ")
+y1= input("please enter y1: ")
+y2= input("please enter y2: ")
+
+print(surface(distance(x1, x2, y1, y2)))

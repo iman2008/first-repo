@@ -1,0 +1,4 @@
+def threeline():
+  print
+  print
+  print

@@ -1,0 +1,11 @@
+#this program will compare two numbers and return value based on <>=
+def compare(x,y):
+    if x>y:
+        return 1
+    elif x==y:
+        return 0
+    else:
+        return -1
+w=input('please enter the first number: ')
+k=input('please enter the second number: ')
+print compare(w,k)

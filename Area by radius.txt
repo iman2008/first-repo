@@ -1,0 +1,7 @@
+# this program calculate the area by receiving radius from the operator
+from math import*
+def surface(r):
+    temp=pi*(r**2)
+    return temp
+p= input('please enter radius: ')
+print(surface(p))

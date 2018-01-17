@@ -1,0 +1,10 @@
+#by this code we can perform the find function
+def find (str,ch):
+    index=0
+    while index<len(str):
+        if str[index]==ch:
+            return index
+    return -1
+a=input("pleae enter your string here ")
+b=input("please mention your character ")
+print find(a,b)

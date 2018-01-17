@@ -1,0 +1,13 @@
+#you can calculate factorial by this program
+def factorial(t):
+    if type(t)!= type(1):
+        return "Factorial can always be applied on integers"
+    elif t<0:
+        return "Factorial can always be applied on possitive numbers"
+    elif (t==0):
+        return 1
+    else:
+        return t*factorial(t-1)
+print("you can simply find out the factorial n by this program: ")
+n= input("please enter n: ")
+print(factorial(n))

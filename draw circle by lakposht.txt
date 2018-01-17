@@ -1,0 +1,18 @@
+
+from turtle import *
+
+Screen()
+a=Turtle()
+a.shape("turtle")
+bgcolor("brown")
+a.color("yellow")
+a.pensize(2)
+a.speed(200)
+a.penup()
+for i in range (10):
+        a.fd(50)
+        a.stamp()
+        a.fd(-50)
+        a.rt(36)
+exitonclick()
+

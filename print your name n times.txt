@@ -1,0 +1,5 @@
+a=input('the number of times need to print your name: ')
+b=raw_input('please enter your name ')
+i=int
+for i in range(0,a):
+    print(b)

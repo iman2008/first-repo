@@ -1,0 +1,12 @@
+#countig specific character in string
+def countletter (x):
+    a=raw_input("input your string here: ")
+    b=raw_input("please mention the specific character you are looking for: ")
+    count=0
+    for letter in a:
+        if (letter==b):
+            count=count+1
+    print count
+print "this code will help you in counting specific character in string\n"
+i=str
+countletter(i)

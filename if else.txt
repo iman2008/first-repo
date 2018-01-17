@@ -1,0 +1,8 @@
+a=42
+b=54
+c='here test'
+if a==b:
+    print('equal')
+elif a>>b:
+    print('a is bigger')
+else: print ('a is smaller')

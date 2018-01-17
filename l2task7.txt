@@ -1,0 +1,20 @@
+"""This code will ask you about the radius and the angle of arc and will drew that"""
+
+from turtle import *
+
+def arc (a,r):
+	r = int(input("please enter the radius here: "))
+	a = int(input("please enter the angle of arc here: "))
+	Screen()
+	t = Turtle()
+	t.forward(r)
+	t.lt(90)
+	for i in range (a):
+		t.fd(r*0.0175)
+		t.lt(1)
+	t.lt(90)
+	t.fd(r)
+	mainloop()
+p = int
+q = int
+arc(p,q)

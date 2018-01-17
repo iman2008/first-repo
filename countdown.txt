@@ -1,0 +1,9 @@
+def countdown (n):
+    if n==0:
+        print (n)
+        print "All Done :-)"
+    else:
+        print(n)
+        countdown(n-1)
+x= input("please enter a positive number ")
+countdown(x)

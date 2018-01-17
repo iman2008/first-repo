@@ -1,2 +1,1 @@
-# first-repo
-This is my first repository
+# session2git

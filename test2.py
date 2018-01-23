@@ -1,3 +1,4 @@
+#simple task
 print ("please enter 4 number")
 x1=int(input("first= ")
 x2=int(input("second= ")
